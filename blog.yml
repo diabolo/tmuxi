@@ -1,0 +1,10 @@
+# ~/.tmuxinator/blog.yml
+# you can make as many tabs as you wish...
+
+project_name: blog
+project_root: /Users/andy/repos/diabolo/diabolo.github.com
+tabs:
+  - editor: cd _posts && vim
+  - scm: git log && gst
+  - server: jekyll --server --auto
+  - shell: open http://localhost:4000

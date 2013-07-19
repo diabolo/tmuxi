@@ -1,0 +1,15 @@
+# you can make as many tabs as you wish...
+
+project_name: rails4cast
+project_root: ~/Sites/rails4railscast
+rvm: 2.0.0-p0@r4r
+# pre: sudo /etc/rc.d/mysqld start
+tabs:
+  - editor: vim
+  - shell: 
+  - database: rails db
+  - server: rails s
+  - console: rails c
+  - dlog: tail -f log/development.log
+  - tlog: tail -f log/test.log
+  - shell: 

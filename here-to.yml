@@ -1,0 +1,16 @@
+# ~/.tmuxinator/here-to.yml
+# you can make as many tabs as you wish...
+
+project_name: here-to
+project_root: ~/Sites/futuregov/here-to
+rvm: 1.9.3@here-to
+# pre: sudo /etc/rc.d/mysqld start
+tabs:
+  - editor: vim
+  - shell: 
+  - database: rails db
+  - server: rails s
+  - console: rails c
+  - dlog: tail -f log/development.log
+  - tlog: tail -f log/test.log
+  - shell: 

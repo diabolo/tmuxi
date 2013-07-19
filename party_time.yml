@@ -1,0 +1,14 @@
+# ~/.tmuxinator/avdi_blog.yml
+# you can make as many tabs as you wish...
+
+project_name: party_time
+project_root: ~/Sites/party_time
+socket_name: foo # Not needed.  Remove to use default socket
+rvm: 1.9.3@party_time
+tabs:
+  - editor: vim
+  - shell: git log && gst
+  - server: rails s
+  - logs: tail -f logs/development.log
+  - console: rails c
+  - tree: tree

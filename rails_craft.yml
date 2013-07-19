@@ -1,0 +1,13 @@
+# ~/.tmuxinator/rails_craft.yml
+# you can make as many tabs as you wish...
+
+project_name: rails_craft
+project_root: ~/Sites/crafting_rails
+rvm: 1.9.3@crafting_rails
+tabs:
+  - editor: vim
+  - shell: git pull
+  - database: rails db
+  - server: rails s
+  - logs: tail -f logs/development.log
+  - console: rails c
