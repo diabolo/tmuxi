@@ -1,9 +1,9 @@
-# ~/.tmuxinator/patchwork.yml
+# ~/.tmuxinator/saddleswap.yml
 # you can make as many tabs as you wish...
 
-name: patchwork
-root: ~/Sites/futuregov
-pre_window: cd patchwork
+name: saddleswap
+root: ~/Sites/
+pre_window: cd saddleswap
 windows:
   - editor: vim
   - shell: 

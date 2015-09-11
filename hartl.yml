@@ -1,16 +1,17 @@
-# ~/.tmuxinator/patchwork.yml
+# ~/.tmuxinator/hartl.yml
 # you can make as many tabs as you wish...
 
-name: patchwork
-root: ~/Sites/futuregov
-pre_window: cd patchwork
+name: hartl
+root: ~/Sites/rails4/
+pre_window: cd hartl_tut
 windows:
   - editor: vim
   - shell: 
   - database: rails db
-  - server: rails s -p4445
+  - server: rails s -p4449
   - console: rails c
   - dlog: tail -f log/development.log
   - tlog: tail -f log/test.log
   - shell: 
   - shell: 
+

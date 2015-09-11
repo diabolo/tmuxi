@@ -1,16 +1,19 @@
-# ~/.tmuxinator/patchwork.yml
+# ~/.tmuxinator/show.yml
 # you can make as many tabs as you wish...
 
-name: patchwork
-root: ~/Sites/futuregov
-pre_window: cd patchwork
+# Rails 4.2 sample app
+#
+name: acr
+root: ~/Sites/rails-sample-apps
+pre_window: cd another_cuke_rails
 windows:
   - editor: vim
   - shell: 
   - database: rails db
-  - server: rails s -p4445
+  - server: rails s
   - console: rails c
   - dlog: tail -f log/development.log
   - tlog: tail -f log/test.log
   - shell: 
-  - shell: 
+
+

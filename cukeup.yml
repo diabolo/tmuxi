@@ -1,11 +1,10 @@
 # ~/.tmuxinator/cukeup.yml
 # you can make as many tabs as you wish...
 
-project_name: cukeup
-project_root: ~/Sites/cuke_up
-rvm: 1.9.3-p374@cuke_up
-# pre: sudo /etc/rc.d/mysqld start
-tabs:
+name: cukeup
+root: ~/Sites/
+pre_window: cd cuke_up
+windows:
   - editor: vim
   - shell: 
   - database: rails db
@@ -13,4 +12,5 @@ tabs:
   - console: rails c
   - dlog: tail -f log/development.log
   - tlog: tail -f log/test.log
+  - shell: 
   - shell: 

@@ -1,9 +1,9 @@
-# ~/.tmuxinator/patchwork.yml
+# ~/.tmuxinator/appfab.yml
 # you can make as many tabs as you wish...
 
-name: patchwork
-root: ~/Sites/futuregov
-pre_window: cd patchwork
+name: appfab
+root: ~/Sites/housetrip
+pre_window: cd appfab
 windows:
   - editor: vim
   - shell: 

@@ -1,0 +1,10 @@
+# ~/.tmuxinator/craft_rails.yml
+# you can make as many tabs as you wish...
+
+name: craft_rails
+root: ~/Sites/
+pre_window: cd craft_rails/mail_form
+windows:
+  - editor: vim
+  - shell: 
+  - shell: 

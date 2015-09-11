@@ -1,0 +1,10 @@
+#
+name: jselq
+root: ~/Sites/js/eloquent_js/ex/
+pre_window: 
+windows:
+  - editor: vim
+  - shell: 
+  - shell: 
+
+

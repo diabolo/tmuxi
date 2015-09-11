@@ -1,16 +1,16 @@
-# ~/.tmuxinator/patchwork.yml
+# ~/.tmuxinator/buyapowa.yml
 # you can make as many tabs as you wish...
 
-name: patchwork
-root: ~/Sites/futuregov
-pre_window: cd patchwork
+name: buyapowa
+root: ~/Sites/buyapowa
+pre_window: cd buyapowa
 windows:
   - editor: vim
   - shell: 
   - database: rails db
-  - server: rails s -p4445
+  - server: bin/server
   - console: rails c
   - dlog: tail -f log/development.log
   - tlog: tail -f log/test.log
   - shell: 
-  - shell: 
+  - patchwork: pushd ~/Sites/futuregov/patchwork

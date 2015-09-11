@@ -1,9 +1,9 @@
-# ~/.tmuxinator/patchwork.yml
+# ~/.tmuxinator/rails_cv.yml
 # you can make as many tabs as you wish...
 
-name: patchwork
-root: ~/Sites/futuregov
-pre_window: cd patchwork
+name: rails_cv
+root: ~/Sites/rails4
+pre_window: cd rails_cv
 windows:
   - editor: vim
   - shell: 

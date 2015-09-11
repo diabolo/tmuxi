@@ -1,0 +1,10 @@
+# ~/.tmuxinator/craft_rails.yml
+# you can make as many tabs as you wish...
+
+name: craft_rails
+root: ~/Sites/
+pre_window: cd crafting_rails/pdf_renderer
+windows:
+  - editor: vim
+  - shell: 
+  - shell: 
