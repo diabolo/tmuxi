@@ -1,16 +1,15 @@
-# ~/.tmuxinator/rapb.yml
+# ~/.tmuxinator/htm.yml
 # you can make as many tabs as you wish...
 
-# Rails, Angular, Postgres, Bootstrap
-#
-name: rapb
-root: ~/Sites/pragprog/rapb
-pre_window: cd shine
+name: htm
+root: ~/Sites/htm
+pre: cd helpthemove
+pre_window: cd helpthemove
 windows:
   - editor: vim
-  - shell: 
+  - shell: bin/dev_start.sh
   - database: rails db
-  - server: rails s -p 5555
+  - server: bundle exec rails server -b 0.0.0.0 -p 3050
   - console: rails c
   - dlog: tail -f log/development.log
   - tlog: tail -f log/test.log
