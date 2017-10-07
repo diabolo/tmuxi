@@ -9,7 +9,7 @@ pre: cd shine
 pre_window: cd shine
 windows:
   - editor: vim
-  - shell: bin/dev_start.sh
+  - shell: 
   - database: rails db
   - server: foreman start
   - console: rails c
