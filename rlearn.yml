@@ -1,0 +1,18 @@
+# Current rails learning project
+#
+# Modify root and pre_window to suit
+# Leave learning port as 3060
+name: rlearn
+root: ~/Sites/learn/rsa/r7
+pre_window: cd hotwire-chat
+windows:
+  - editor: vim
+  - shell: 
+  - database: rails db
+  - server: bundle exec rails server -b localhost -p 3060
+  - console: rails c
+  - dlog: tail -f log/development.log
+  - tlog: tail -f log/test.log
+  - shell: 
+
+

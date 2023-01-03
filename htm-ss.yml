@@ -1,0 +1,17 @@
+# ~/.tmuxinator/htm-ss.yml
+# you can make as many tabs as you wish...
+
+name: htm-ss
+root: ~/Sites/htm
+pre_window: cd supplier_service
+windows:
+  - editor: vim
+  - shell: 
+  - database: rails db
+  - server: bundle exec rails server -b localhost -p 3051
+  - console: rails c
+  - dlog: tail -f log/development.log
+  - tlog: tail -f log/test.log
+  - shell: 
+
+

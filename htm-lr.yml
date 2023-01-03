@@ -1,0 +1,16 @@
+# ~/.tmuxinator/htm.yml
+# you can make as many tabs as you wish...
+
+name: lr
+root: ~/Sites/htm
+pre_window: cd loveresident
+windows:
+  - editor: vim
+  - shell: 
+  - database: rails db
+  - server: bundle exec rails server -b 0.0.0.0 -p 3060
+  - console: rails c
+  - dlog: tail -f log/development.log
+  - tlog: tail -f log/test.log
+  - shell: 
+

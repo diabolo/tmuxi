@@ -1,0 +1,11 @@
+# HTM Portals
+name: htm-portals
+root: ~/
+windows:
+  - hlt: ssh -t hl-prd 'dokku run production bundle exec rails c'
+  - htm: ssh -t production 'dokku run production bundle exec rails c'
+  - lal: ssh -t la-prd 'dokku run production bundle exec rails c'
+  - rsd: ssh -t rs-prd 'dokku run production bundle exec rails c'
+  - vch: ssh -t vouch-prd 'dokku run production bundle exec rails c'
+    
+

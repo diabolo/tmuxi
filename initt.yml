@@ -1,0 +1,16 @@
+# ~/.tmuxinator/htm.yml
+# you can make as many tabs as you wish...
+
+name: initt
+root: ~/Sites/jobs/initforthe
+pre_window: cd technical-test-andrew-premdas
+windows:
+  - editor: vim
+  - shell: 
+  - database: rails db
+  - server: bundle exec rails server -b localhost -p 3055
+  - console: rails c
+  - dlog: tail -f log/development.log
+  - tlog: tail -f log/test.log
+  - shell: 
+
