@@ -3,13 +3,12 @@
 
 name: htm
 root: ~/Sites/htm
-pre: cd helpthemove
 pre_window: cd helpthemove
 windows:
   - editor: vim
   - shell: bin/dev_start.sh
   - database: rails db
-  - server: bundle exec rails server -b 0.0.0.0 -p 3050
+  - server: bundle exec rails server -b localhost -p 3050
   - console: rails c
   - dlog: tail -f log/development.log
   - tlog: tail -f log/test.log

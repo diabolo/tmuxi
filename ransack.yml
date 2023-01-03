@@ -1,9 +1,0 @@
-# ~/.tmuxinator/ransack.yml
-# you can make as many tabs as you wish...
-
-project_name: ransack
-project_root: ~/repos/diabolo/ransack
-rvm: 1.9.3-p392@ransack
-tabs:
-  - editor: vim
-  - shell: 
